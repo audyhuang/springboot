@@ -6,15 +6,14 @@ import com.hzy.springboot.mapper.TUserMapper;
 import com.hzy.springboot.model.common.req.RequestPage;
 import com.hzy.springboot.model.common.resp.ResponsePage;
 import com.hzy.springboot.model.mgt.TUser;
-import com.hzy.springboot.service.UserService;
-import org.springframework.beans.factory.annotation.Autowired;
+import com.hzy.springboot.service.TUserService;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
 import java.util.List;
 
 @Service
-public class UserServiceImpl implements UserService {
+public class TUserServiceImpl implements TUserService {
 
     @Resource
     public TUserMapper userMapper;

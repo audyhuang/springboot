@@ -6,7 +6,7 @@ import com.hzy.springboot.model.mgt.TUser;
 
 import java.util.List;
 
-public interface UserService {
+public interface TUserService {
 
     int addUser(TUser user);
 
